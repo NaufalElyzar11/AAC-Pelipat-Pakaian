@@ -1,0 +1,2551 @@
+{
+  "scope": "Independent exported-file checks; no physical print or strength test; no motion collision validation in this script.",
+  "passed": true,
+  "failures": {
+    "stl": [],
+    "3mf": [],
+    "step": [],
+    "step_parts": [],
+    "coverage": []
+  },
+  "coverage": {
+    "manifest_parts": 31,
+    "stl_parts": 31,
+    "3mf_parts": 31,
+    "stl_missing": [],
+    "3mf_missing": [],
+    "unexpected_stl": [],
+    "unexpected_3mf": [],
+    "passed": true
+  },
+  "stl_runtime": "5.2.0",
+  "stl": {
+    "braille_kembali": {
+      "path": "output\\cad_rev_b\\stl\\braille_kembali.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          47.20000076293945,
+          12.300000190734863,
+          2.3499999046325684
+        ]
+      ],
+      "extents_mm": [
+        47.20000076293945,
+        12.300000190734863,
+        2.3499999046325684
+      ],
+      "volume_mm3": 940.1088858604354,
+      "vertices": 13518,
+      "triangles": 27032
+    },
+    "braille_mulai": {
+      "path": "output\\cad_rev_b\\stl\\braille_mulai.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          34.79999923706055,
+          12.300000190734863,
+          2.3499999046325684
+        ]
+      ],
+      "extents_mm": [
+        34.79999923706055,
+        12.300000190734863,
+        2.3499999046325684
+      ],
+      "volume_mm3": 693.437242617118,
+      "vertices": 10848,
+      "triangles": 21692
+    },
+    "braille_ulang": {
+      "path": "output\\cad_rev_b\\stl\\braille_ulang.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          34.79999923706055,
+          12.300000190734863,
+          2.3499999046325684
+        ]
+      ],
+      "extents_mm": [
+        34.79999923706055,
+        12.300000190734863,
+        2.3499999046325684
+      ],
+      "volume_mm3": 696.076853801647,
+      "vertices": 13518,
+      "triangles": 27032
+    },
+    "button_overlay_back": {
+      "path": "output\\cad_rev_b\\stl\\button_overlay_back.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.006324822083115578,
+          0.001581361866556108,
+          0.0
+        ],
+        [
+          16.0,
+          15.998418807983398,
+          2.299999952316284
+        ]
+      ],
+      "extents_mm": [
+        15.993675177916884,
+        15.996837446116842,
+        2.299999952316284
+      ],
+      "volume_mm3": 256.37612122046966,
+      "vertices": 324,
+      "triangles": 644
+    },
+    "button_overlay_next": {
+      "path": "output\\cad_rev_b\\stl\\button_overlay_next.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.006324822083115578,
+          0.001581361866556108,
+          0.0
+        ],
+        [
+          16.0,
+          15.998418807983398,
+          2.299999952316284
+        ]
+      ],
+      "extents_mm": [
+        15.993675177916884,
+        15.996837446116842,
+        2.299999952316284
+      ],
+      "volume_mm3": 373.2201329453692,
+      "vertices": 316,
+      "triangles": 628
+    },
+    "button_overlay_repeat": {
+      "path": "output\\cad_rev_b\\stl\\button_overlay_repeat.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.006324822083115578,
+          0.001581361866556108,
+          0.0
+        ],
+        [
+          16.0,
+          15.998418807983398,
+          2.299999952316284
+        ]
+      ],
+      "extents_mm": [
+        15.993675177916884,
+        15.996837446116842,
+        2.299999952316284
+      ],
+      "volume_mm3": 312.0236442933171,
+      "vertices": 474,
+      "triangles": 944
+    },
+    "control_base": {
+      "path": "output\\cad_rev_b\\stl\\control_base.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          250.0,
+          96.0,
+          30.0
+        ]
+      ],
+      "extents_mm": [
+        250.0,
+        96.0,
+        30.0
+      ],
+      "volume_mm3": 130023.47683994456,
+      "vertices": 2766,
+      "triangles": 5572
+    },
+    "control_lid": {
+      "path": "output\\cad_rev_b\\stl\\control_lid.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          250.0,
+          96.0,
+          3.200000047683716
+        ]
+      ],
+      "extents_mm": [
+        250.0,
+        96.0,
+        3.200000047683716
+      ],
+      "volume_mm3": 73415.9003471399,
+      "vertices": 8546,
+      "triangles": 17284
+    },
+    "hinge_A": {
+      "path": "output\\cad_rev_b\\stl\\hinge_A.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.001594749977812171,
+          0.001594749977812171,
+          0.0
+        ],
+        [
+          32.5,
+          11.5,
+          36.0
+        ]
+      ],
+      "extents_mm": [
+        32.49840525002219,
+        11.498405250022188,
+        36.0
+      ],
+      "volume_mm3": 3717.5564723449006,
+      "vertices": 1334,
+      "triangles": 2680
+    },
+    "hinge_B": {
+      "path": "output\\cad_rev_b\\stl\\hinge_B.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.001594749977812171,
+          0.0
+        ],
+        [
+          32.49840545654297,
+          11.5,
+          36.0
+        ]
+      ],
+      "extents_mm": [
+        32.49840545654297,
+        11.498405250022188,
+        36.0
+      ],
+      "volume_mm3": 3717.5564353576647,
+      "vertices": 1334,
+      "triangles": 2680
+    },
+    "marker_collar": {
+      "path": "output\\cad_rev_b\\stl\\marker_collar.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          46.0,
+          38.0,
+          6.0
+        ]
+      ],
+      "extents_mm": [
+        46.0,
+        38.0,
+        6.0
+      ],
+      "volume_mm3": 4194.651381128967,
+      "vertices": 970,
+      "triangles": 1944
+    },
+    "marker_index": {
+      "path": "output\\cad_rev_b\\stl\\marker_index.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          22.0,
+          1.600000023841858
+        ]
+      ],
+      "extents_mm": [
+        8.0,
+        22.0,
+        1.600000023841858
+      ],
+      "volume_mm3": 276.0855331639739,
+      "vertices": 168,
+      "triangles": 332
+    },
+    "OPTION_sensor_adapter_template": {
+      "path": "output\\cad_rev_b\\stl\\OPTION_sensor_adapter_template.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          30.0,
+          30.0,
+          3.0
+        ]
+      ],
+      "extents_mm": [
+        30.0,
+        30.0,
+        3.0
+      ],
+      "volume_mm3": 2258.752318884107,
+      "vertices": 662,
+      "triangles": 1332
+    },
+    "panel_B1": {
+      "path": "output\\cad_rev_b\\stl\\panel_B1.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -2.4417432005389517e-16
+        ],
+        [
+          202.0,
+          130.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        202.0,
+        130.8000030517578,
+        8.0
+      ],
+      "volume_mm3": 102328.37238139666,
+      "vertices": 3428,
+      "triangles": 6920
+    },
+    "panel_B2": {
+      "path": "output\\cad_rev_b\\stl\\panel_B2.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          202.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        202.0,
+        134.8000030517578,
+        7.9999999999999964
+      ],
+      "volume_mm3": 105070.64572281903,
+      "vertices": 2822,
+      "triangles": 5692
+    },
+    "panel_F1": {
+      "path": "output\\cad_rev_b\\stl\\panel_F1.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -2.4417432005389517e-16
+        ],
+        [
+          202.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        202.0,
+        134.8000030517578,
+        8.0
+      ],
+      "volume_mm3": 125595.96703018904,
+      "vertices": 2006,
+      "triangles": 4040
+    },
+    "panel_F2": {
+      "path": "output\\cad_rev_b\\stl\\panel_F2.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          202.0,
+          130.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        202.0,
+        130.8000030517578,
+        7.9999999999999964
+      ],
+      "volume_mm3": 121998.34033481618,
+      "vertices": 2334,
+      "triangles": 4704
+    },
+    "panel_L1": {
+      "path": "output\\cad_rev_b\\stl\\panel_L1.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -2.4417432005389517e-16
+        ],
+        [
+          206.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.8000030517578,
+        8.0
+      ],
+      "volume_mm3": 106430.07911516826,
+      "vertices": 3270,
+      "triangles": 6600
+    },
+    "panel_L2": {
+      "path": "output\\cad_rev_b\\stl\\panel_L2.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.60000610351562,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.60000610351562,
+        7.9999999999999964
+      ],
+      "volume_mm3": 109145.66140026157,
+      "vertices": 3607,
+      "triangles": 7274
+    },
+    "panel_L3": {
+      "path": "output\\cad_rev_b\\stl\\panel_L3.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.60000610351562,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.60000610351562,
+        7.9999999999999964
+      ],
+      "volume_mm3": 107417.95803449483,
+      "vertices": 3446,
+      "triangles": 6948
+    },
+    "panel_L4": {
+      "path": "output\\cad_rev_b\\stl\\panel_L4.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.8000030517578,
+        7.9999999999999964
+      ],
+      "volume_mm3": 107453.10058584053,
+      "vertices": 2822,
+      "triangles": 5692
+    },
+    "panel_R1": {
+      "path": "output\\cad_rev_b\\stl\\panel_R1.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -2.4417432005389517e-16
+        ],
+        [
+          206.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.8000030517578,
+        8.0
+      ],
+      "volume_mm3": 106430.07917253696,
+      "vertices": 3270,
+      "triangles": 6600
+    },
+    "panel_R2": {
+      "path": "output\\cad_rev_b\\stl\\panel_R2.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.60000610351562,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.60000610351562,
+        7.9999999999999964
+      ],
+      "volume_mm3": 109145.66144895086,
+      "vertices": 3607,
+      "triangles": 7274
+    },
+    "panel_R3": {
+      "path": "output\\cad_rev_b\\stl\\panel_R3.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.60000610351562,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.60000610351562,
+        7.9999999999999964
+      ],
+      "volume_mm3": 107417.95803449483,
+      "vertices": 3446,
+      "triangles": 6948
+    },
+    "panel_R4": {
+      "path": "output\\cad_rev_b\\stl\\panel_R4.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          3.308539279337267e-15
+        ],
+        [
+          206.0,
+          134.8000030517578,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        206.0,
+        134.8000030517578,
+        7.9999999999999964
+      ],
+      "volume_mm3": 107453.10058584053,
+      "vertices": 2822,
+      "triangles": 5692
+    },
+    "splice_strap": {
+      "path": "output\\cad_rev_b\\stl\\splice_strap.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -2.4417432005389517e-16
+        ],
+        [
+          18.0,
+          56.0,
+          4.0
+        ]
+      ],
+      "extents_mm": [
+        18.0,
+        56.0,
+        4.0
+      ],
+      "volume_mm3": 3841.3267278791304,
+      "vertices": 508,
+      "triangles": 1020
+    },
+    "TEST_hinge_panel_fixed": {
+      "path": "output\\cad_rev_b\\tests\\TEST_hinge_panel_fixed.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -1.2208716002694758e-16
+        ],
+        [
+          55.0,
+          44.0,
+          4.0
+        ]
+      ],
+      "extents_mm": [
+        55.0,
+        44.0,
+        4.0
+      ],
+      "volume_mm3": 9603.996390783259,
+      "vertices": 484,
+      "triangles": 972
+    },
+    "TEST_hinge_panel_moving": {
+      "path": "output\\cad_rev_b\\tests\\TEST_hinge_panel_moving.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -1.2208716002694758e-16
+        ],
+        [
+          55.0,
+          44.0,
+          4.0
+        ]
+      ],
+      "extents_mm": [
+        55.0,
+        44.0,
+        4.0
+      ],
+      "volume_mm3": 9603.996403426469,
+      "vertices": 484,
+      "triangles": 972
+    },
+    "TEST_pin_bores_42_43_44_45": {
+      "path": "output\\cad_rev_b\\tests\\TEST_pin_bores_42_43_44_45.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          92.0,
+          34.0,
+          8.0
+        ]
+      ],
+      "extents_mm": [
+        92.0,
+        34.0,
+        8.0
+      ],
+      "volume_mm3": 24521.040840352896,
+      "vertices": 800,
+      "triangles": 1612
+    },
+    "TEST_splice_panel_A": {
+      "path": "output\\cad_rev_b\\tests\\TEST_splice_panel_A.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -1.2208716002694758e-16
+        ],
+        [
+          52.0,
+          38.0,
+          4.0
+        ]
+      ],
+      "extents_mm": [
+        52.0,
+        38.0,
+        4.0
+      ],
+      "volume_mm3": 7846.387692237918,
+      "vertices": 485,
+      "triangles": 970
+    },
+    "TEST_splice_panel_B": {
+      "path": "output\\cad_rev_b\\tests\\TEST_splice_panel_B.stl",
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "single_connected_body": true,
+        "fits_260_cube": true,
+        "on_or_above_z0": true
+      },
+      "passed": true,
+      "connected_bodies": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -1.2208716002694758e-16
+        ],
+        [
+          52.0,
+          38.0,
+          4.0
+        ]
+      ],
+      "extents_mm": [
+        52.0,
+        38.0,
+        4.0
+      ],
+      "volume_mm3": 7846.387691836877,
+      "vertices": 485,
+      "triangles": 970
+    }
+  },
+  "3mf": {
+    "braille_kembali": {
+      "path": "output\\cad_rev_b\\3mf\\braille_kembali.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          106.4000015258789,
+          123.8499984741211,
+          0.0
+        ],
+        [
+          153.60000228881836,
+          136.14999866485596,
+          2.3499999046325684
+        ]
+      ],
+      "volume_mm3": 940.1088833787331
+    },
+    "braille_mulai": {
+      "path": "output\\cad_rev_b\\3mf\\braille_mulai.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          112.5999984741211,
+          123.8499984741211,
+          0.0
+        ],
+        [
+          147.39999771118164,
+          136.14999866485596,
+          2.3499999046325684
+        ]
+      ],
+      "volume_mm3": 693.4372425584319
+    },
+    "braille_ulang": {
+      "path": "output\\cad_rev_b\\3mf\\braille_ulang.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          112.5999984741211,
+          123.8499984741211,
+          0.0
+        ],
+        [
+          147.39999771118164,
+          136.14999866485596,
+          2.3499999046325684
+        ]
+      ],
+      "volume_mm3": 696.0768535084835
+    },
+    "button_overlay_back": {
+      "path": "output\\cad_rev_b\\3mf\\button_overlay_back.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          122.00948356930166,
+          122.0031602847157,
+          0.0
+        ],
+        [
+          138.00315856933594,
+          137.99999809265137,
+          2.299999952316284
+        ]
+      ],
+      "volume_mm3": 256.37611824098025
+    },
+    "button_overlay_next": {
+      "path": "output\\cad_rev_b\\3mf\\button_overlay_next.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          122.00948356930166,
+          122.0031602847157,
+          0.0
+        ],
+        [
+          138.00315856933594,
+          137.99999809265137,
+          2.299999952316284
+        ]
+      ],
+      "volume_mm3": 373.2201326931718
+    },
+    "button_overlay_repeat": {
+      "path": "output\\cad_rev_b\\3mf\\button_overlay_repeat.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          122.00948356930166,
+          122.0031602847157,
+          0.0
+        ],
+        [
+          138.00315856933594,
+          137.99999809265137,
+          2.299999952316284
+        ]
+      ],
+      "volume_mm3": 312.0236426895283
+    },
+    "control_base": {
+      "path": "output\\cad_rev_b\\3mf\\control_base.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          5.0,
+          82.0,
+          0.0
+        ],
+        [
+          255.0,
+          178.0,
+          30.0
+        ]
+      ],
+      "volume_mm3": 130023.47603271408
+    },
+    "control_lid": {
+      "path": "output\\cad_rev_b\\3mf\\control_lid.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          5.0,
+          82.0,
+          0.0
+        ],
+        [
+          255.0,
+          178.0,
+          3.200000047683716
+        ]
+      ],
+      "volume_mm3": 73415.90021438294
+    },
+    "hinge_A": {
+      "path": "output\\cad_rev_b\\3mf\\hinge_A.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          113.75238845706917,
+          124.25238845706917,
+          0.0
+        ],
+        [
+          146.25079345703125,
+          135.75079345703125,
+          36.0
+        ]
+      ],
+      "volume_mm3": 3717.5564766458733
+    },
+    "hinge_B": {
+      "path": "output\\cad_rev_b\\3mf\\hinge_B.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          113.75079345703125,
+          124.25238845706917,
+          0.0
+        ],
+        [
+          146.24919891357422,
+          135.75079345703125,
+          36.0
+        ]
+      ],
+      "volume_mm3": 3717.556461069505
+    },
+    "marker_collar": {
+      "path": "output\\cad_rev_b\\3mf\\marker_collar.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          107.0,
+          111.0,
+          0.0
+        ],
+        [
+          153.0,
+          149.0,
+          6.0
+        ]
+      ],
+      "volume_mm3": 4194.651391015956
+    },
+    "marker_index": {
+      "path": "output\\cad_rev_b\\3mf\\marker_index.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          126.0,
+          119.0,
+          0.0
+        ],
+        [
+          134.0,
+          141.0,
+          1.600000023841858
+        ]
+      ],
+      "volume_mm3": 276.08553446257116
+    },
+    "OPTION_sensor_adapter_template": {
+      "path": "output\\cad_rev_b\\3mf\\OPTION_sensor_adapter_template.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          115.0,
+          115.0,
+          0.0
+        ],
+        [
+          145.0,
+          145.0,
+          3.0
+        ]
+      ],
+      "volume_mm3": 2258.752319335987
+    },
+    "panel_B1": {
+      "path": "output\\cad_rev_b\\3mf\\panel_B1.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          29.0,
+          64.5999984741211,
+          0.0
+        ],
+        [
+          231.0,
+          195.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 102328.37234966004
+    },
+    "panel_B2": {
+      "path": "output\\cad_rev_b\\3mf\\panel_B2.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          29.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          231.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 105070.64567658391
+    },
+    "panel_F1": {
+      "path": "output\\cad_rev_b\\3mf\\panel_F1.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          29.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          231.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 125595.96707643125
+    },
+    "panel_F2": {
+      "path": "output\\cad_rev_b\\3mf\\panel_F2.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          29.0,
+          64.5999984741211,
+          0.0
+        ],
+        [
+          231.0,
+          195.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 121998.34034804378
+    },
+    "panel_L1": {
+      "path": "output\\cad_rev_b\\3mf\\panel_L1.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          233.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 106430.07921134114
+    },
+    "panel_L2": {
+      "path": "output\\cad_rev_b\\3mf\\panel_L2.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.70000076293945,
+          0.0
+        ],
+        [
+          233.0,
+          197.30000686645508,
+          8.0
+        ]
+      ],
+      "volume_mm3": 109145.66132967151
+    },
+    "panel_L3": {
+      "path": "output\\cad_rev_b\\3mf\\panel_L3.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.70000076293945,
+          0.0
+        ],
+        [
+          233.0,
+          197.30000686645508,
+          8.0
+        ]
+      ],
+      "volume_mm3": 107417.95796749402
+    },
+    "panel_L4": {
+      "path": "output\\cad_rev_b\\3mf\\panel_L4.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          233.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 107453.10065388709
+    },
+    "panel_R1": {
+      "path": "output\\cad_rev_b\\3mf\\panel_R1.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          233.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 106430.0792577815
+    },
+    "panel_R2": {
+      "path": "output\\cad_rev_b\\3mf\\panel_R2.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.70000076293945,
+          0.0
+        ],
+        [
+          233.0,
+          197.30000686645508,
+          8.0
+        ]
+      ],
+      "volume_mm3": 109145.66138160981
+    },
+    "panel_R3": {
+      "path": "output\\cad_rev_b\\3mf\\panel_R3.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.70000076293945,
+          0.0
+        ],
+        [
+          233.0,
+          197.30000686645508,
+          8.0
+        ]
+      ],
+      "volume_mm3": 107417.95796749402
+    },
+    "panel_R4": {
+      "path": "output\\cad_rev_b\\3mf\\panel_R4.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          27.0,
+          62.599998474121094,
+          0.0
+        ],
+        [
+          233.0,
+          197.4000015258789,
+          8.0
+        ]
+      ],
+      "volume_mm3": 107453.10065388709
+    },
+    "splice_strap": {
+      "path": "output\\cad_rev_b\\3mf\\splice_strap.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          121.0,
+          102.0,
+          0.0
+        ],
+        [
+          139.0,
+          158.0,
+          4.0
+        ]
+      ],
+      "volume_mm3": 3841.326707887538
+    },
+    "TEST_hinge_panel_fixed": {
+      "path": "output\\cad_rev_b\\3mf\\TEST_hinge_panel_fixed.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          102.5,
+          108.0,
+          0.0
+        ],
+        [
+          157.5,
+          152.0,
+          4.0
+        ]
+      ],
+      "volume_mm3": 9603.996383695636
+    },
+    "TEST_hinge_panel_moving": {
+      "path": "output\\cad_rev_b\\3mf\\TEST_hinge_panel_moving.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          102.5,
+          108.0,
+          0.0
+        ],
+        [
+          157.5,
+          152.0,
+          4.0
+        ]
+      ],
+      "volume_mm3": 9603.996402803265
+    },
+    "TEST_pin_bores_42_43_44_45": {
+      "path": "output\\cad_rev_b\\3mf\\TEST_pin_bores_42_43_44_45.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          84.0,
+          113.0,
+          0.0
+        ],
+        [
+          176.0,
+          147.0,
+          8.0
+        ]
+      ],
+      "volume_mm3": 24521.040829557445
+    },
+    "TEST_splice_panel_A": {
+      "path": "output\\cad_rev_b\\3mf\\TEST_splice_panel_A.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          104.0,
+          111.0,
+          0.0
+        ],
+        [
+          156.0,
+          149.0,
+          4.0
+        ]
+      ],
+      "volume_mm3": 7846.387686491174
+    },
+    "TEST_splice_panel_B": {
+      "path": "output\\cad_rev_b\\3mf\\TEST_splice_panel_B.3mf",
+      "checks": {
+        "reader_zero_warnings": true,
+        "unit_millimeter": true,
+        "single_mesh_object": true,
+        "single_build_item": true,
+        "all_meshes_valid": true,
+        "all_meshes_manifold_oriented": true,
+        "matching_stl_exists": true,
+        "extents_match_stl": true,
+        "volume_matches_stl": true,
+        "build_item_inside_260_cube": true
+      },
+      "passed": true,
+      "reader_warnings": [],
+      "meshes": [
+        {
+          "valid": true,
+          "manifold_and_oriented": true
+        }
+      ],
+      "build_bounds_mm": [
+        [
+          104.0,
+          111.0,
+          0.0
+        ],
+        [
+          156.0,
+          149.0,
+          4.0
+        ]
+      ],
+      "volume_mm3": 7846.387687898667
+    }
+  },
+  "step_assembly": {
+    "path": "output\\cad_rev_b\\step\\assembly_open.step",
+    "checks": {
+      "brep_valid": true,
+      "all_solids_positive_volume": true,
+      "solid_count_matches_assembly": true
+    },
+    "passed": true,
+    "solid_count": 62,
+    "expected_solid_count": 62,
+    "total_volume_mm3": 1654284.8809606459
+  },
+  "step_parts": {
+    "panel_L1": {
+      "path": "output\\cad_rev_b\\step\\panel_L1.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 106406.95312236073
+    },
+    "panel_L2": {
+      "path": "output\\cad_rev_b\\step\\panel_L2.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 109126.1153222099
+    },
+    "panel_L3": {
+      "path": "output\\cad_rev_b\\step\\panel_L3.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 107396.5874260317
+    },
+    "panel_L4": {
+      "path": "output\\cad_rev_b\\step\\panel_L4.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 107433.41515352977
+    },
+    "splice_strap": {
+      "path": "output\\cad_rev_b\\step\\splice_strap.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3841.3516228714216
+    },
+    "panel_R1": {
+      "path": "output\\cad_rev_b\\step\\panel_R1.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 106406.95312235982
+    },
+    "panel_R2": {
+      "path": "output\\cad_rev_b\\step\\panel_R2.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 109126.11532220797
+    },
+    "panel_R3": {
+      "path": "output\\cad_rev_b\\step\\panel_R3.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 107396.5874260317
+    },
+    "panel_R4": {
+      "path": "output\\cad_rev_b\\step\\panel_R4.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 107433.41515352977
+    },
+    "panel_F1": {
+      "path": "output\\cad_rev_b\\step\\panel_F1.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 125595.57429967169
+    },
+    "panel_F2": {
+      "path": "output\\cad_rev_b\\step\\panel_F2.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 121997.83801898213
+    },
+    "panel_B1": {
+      "path": "output\\cad_rev_b\\step\\panel_B1.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 102307.07686867674
+    },
+    "panel_B2": {
+      "path": "output\\cad_rev_b\\step\\panel_B2.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 105050.97645055187
+    },
+    "hinge_A": {
+      "path": "output\\cad_rev_b\\step\\hinge_A.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3717.950774770774
+    },
+    "hinge_B": {
+      "path": "output\\cad_rev_b\\step\\hinge_B.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3717.9507747708653
+    },
+    "marker_collar": {
+      "path": "output\\cad_rev_b\\step\\marker_collar.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 4194.5742743503315
+    },
+    "marker_index": {
+      "path": "output\\cad_rev_b\\step\\marker_index.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 276.1061929829795
+    },
+    "control_base": {
+      "path": "output\\cad_rev_b\\step\\control_base.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 130031.59978120471
+    },
+    "control_lid": {
+      "path": "output\\cad_rev_b\\step\\control_lid.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 73412.75586858342
+    },
+    "braille_kembali": {
+      "path": "output\\cad_rev_b\\step\\braille_kembali.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 940.1718234812105
+    },
+    "braille_mulai": {
+      "path": "output\\cad_rev_b\\step\\braille_mulai.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 693.4891046797419
+    },
+    "braille_ulang": {
+      "path": "output\\cad_rev_b\\step\\braille_ulang.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 696.1398234812106
+    },
+    "button_overlay_back": {
+      "path": "output\\cad_rev_b\\step\\button_overlay_back.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 256.5890758121742
+    },
+    "button_overlay_next": {
+      "path": "output\\cad_rev_b\\step\\button_overlay_next.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 373.6139063281661
+    },
+    "button_overlay_repeat": {
+      "path": "output\\cad_rev_b\\step\\button_overlay_repeat.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 312.3528495831692
+    },
+    "TEST_pin_bores_42_43_44_45": {
+      "path": "output\\cad_rev_b\\step\\TEST_pin_bores_42_43_44_45.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 24520.642509749123
+    },
+    "TEST_splice_panel_A": {
+      "path": "output\\cad_rev_b\\step\\TEST_splice_panel_A.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 7846.288027140739
+    },
+    "TEST_splice_panel_B": {
+      "path": "output\\cad_rev_b\\step\\TEST_splice_panel_B.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 7846.288027140739
+    },
+    "TEST_hinge_panel_fixed": {
+      "path": "output\\cad_rev_b\\step\\TEST_hinge_panel_fixed.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 9603.932748463394
+    },
+    "TEST_hinge_panel_moving": {
+      "path": "output\\cad_rev_b\\step\\TEST_hinge_panel_moving.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 9603.932748463356
+    },
+    "OPTION_sensor_adapter_template": {
+      "path": "output\\cad_rev_b\\step\\OPTION_sensor_adapter_template.step",
+      "checks": {
+        "brep_valid": true,
+        "single_solid": true,
+        "positive_volume": true,
+        "volume_matches_manifest_brep": true
+      },
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 2258.5964726935654
+    }
+  }
+}

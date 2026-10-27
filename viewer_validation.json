@@ -1,0 +1,179 @@
+{
+  "started": "2026-10-27T19:59:04.426Z",
+  "source": "F:/Projects/AAC/output/cad_rev_b/COBA_MEKANISME.html",
+  "tests": [
+    {
+      "group": "left",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "left",
+      "angle": 90,
+      "value": "90°",
+      "glError": 0
+    },
+    {
+      "group": "left",
+      "angle": 180,
+      "value": "180°",
+      "glError": 0
+    },
+    {
+      "group": "left",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "right",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "right",
+      "angle": 90,
+      "value": "90°",
+      "glError": 0
+    },
+    {
+      "group": "right",
+      "angle": 180,
+      "value": "180°",
+      "glError": 0
+    },
+    {
+      "group": "right",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "bottom",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "bottom",
+      "angle": 90,
+      "value": "90°",
+      "glError": 0
+    },
+    {
+      "group": "bottom",
+      "angle": 180,
+      "value": "180°",
+      "glError": 0
+    },
+    {
+      "group": "bottom",
+      "angle": 0,
+      "value": "0°",
+      "glError": 0
+    },
+    {
+      "group": "left",
+      "angle": 90,
+      "value": "90°",
+      "glError": 0
+    }
+  ],
+  "errors": [],
+  "model": {
+    "meshCount": 62,
+    "triangleCount": 230700,
+    "groups": [
+      "left",
+      "right",
+      "fixed",
+      "bottom",
+      "reference",
+      "control"
+    ],
+    "pivots": {
+      "left": {
+        "point": [
+          210,
+          0,
+          15
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "sign": 1
+      },
+      "right": {
+        "point": [
+          420,
+          0,
+          15
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "sign": -1
+      },
+      "bottom": {
+        "point": [
+          0,
+          270,
+          15
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "sign": 1
+      }
+    }
+  },
+  "fileBytes": 6555627,
+  "sourceSha256": "04f92a70cdf9c616424fca1a457d81ba3a12eca4ac10df566352d37e94f91e3a",
+  "sourceMtime": "2026-10-27T19:58:16.107Z",
+  "presentationMirror": true,
+  "demo": {
+    "leftAngleAfter450ms": 35,
+    "stops": true
+  },
+  "referenceToggle": {
+    "glError": 0
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "status": "passed",
+  "finished": "2026-10-27T19:59:13.285Z",
+  "visual_review": {
+    "status": "passed",
+    "left_panel_orientation": "The left90 screenshot now raises the panel on the viewer left; display-only reflection is present.",
+    "layout": "Open and left90 views inspected; controls, geometry, labels, and limits are legible without overlap."
+  },
+  "screenshots": [
+    {
+      "path": "F:/Projects/AAC/output/cad_rev_b/pratinjau_3d.png",
+      "bytes": 209848,
+      "width": 1440,
+      "height": 1040,
+      "sha256": "8ee8c2b7f17e473e3696ee2c23d726238812861f49c4e442bd92f56381758872"
+    },
+    {
+      "path": "F:/Projects/AAC/output/cad_rev_b/pratinjau_lipat_kiri.png",
+      "bytes": 211736,
+      "width": 1440,
+      "height": 1040,
+      "sha256": "280ff9809cdb309f69c5ddf743d93beeb2ca289f2c651b19b4f044506c852d90"
+    }
+  ]
+}

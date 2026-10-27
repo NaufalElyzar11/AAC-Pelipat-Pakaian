@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pelipat pakaian — pratinjau mekanisme</title>
+<style>
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#203448;background:#f3f5f7;color-scheme:light;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,canvas:focus-visible{outline:3px solid #d66a26;outline-offset:4px}
+.shell{max-width:1600px;margin:auto;padding:28px}.heading{display:flex;gap:20px;justify-content:space-between;align-items:center;margin-bottom:22px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#617382;font-weight:700;margin:0 0 8px}h1{font-size:clamp(22px,3vw,32px);font-weight:650;letter-spacing:-.025em;margin:0}.revision{border:1px solid #d3dce3;border-radius:20px;padding:8px 12px;font-size:12px;color:#536776;white-space:nowrap}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;align-items:stretch}.viewport{position:relative;background:#eaf0f5;border:1px solid #d8e0e6;border-radius:16px;overflow:hidden;min-height:640px}.viewport canvas{display:block;width:100%;height:100%;position:absolute;inset:0;touch-action:none}.view-title{position:absolute;left:18px;top:18px;padding:9px 12px;border-radius:8px;background:#fffffff0;pointer-events:none;font-size:13px;font-weight:600;box-shadow:0 2px 12px #20344808}.view-meta{position:absolute;left:18px;bottom:18px;display:flex;gap:8px;flex-wrap:wrap;max-width:calc(100% - 36px);pointer-events:none}.view-meta span{font-size:12px;background:#fffffff0;border:1px solid #d8e0e6;border-radius:20px;padding:7px 10px}.axis{position:absolute;right:18px;top:18px;font-size:11px;font-weight:700;letter-spacing:.05em;color:#637482;background:#ffffffdd;border-radius:8px;padding:9px;pointer-events:none}.controls{background:#fff;border:1px solid #d8e0e6;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:22px}.controls h2{font-size:17px;margin:0}.control{display:grid;gap:12px}.control-line{display:flex;align-items:center;justify-content:space-between;gap:12px}.control-line label{font-size:14px;font-weight:600}.angle{font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;color:#1c5e8c}input[type=range]{width:100%;accent-color:#24658f;margin:0;min-height:22px}.range-labels{display:flex;justify-content:space-between;font-size:11px;color:#6d7d89;margin-top:-7px}.actions{display:grid;gap:10px}.button{border:1px solid #d0dae2;border-radius:8px;background:#fff;color:#203448;padding:11px 14px;font-size:13px;font-weight:600;min-height:42px}.button:hover{background:#f3f6f8}.button.primary{background:#205f8a;color:#fff;border-color:#205f8a}.button.primary:hover{background:#194f76}.button.primary.running{background:#a55024;border-color:#a55024}.divider{border:0;border-top:1px solid #e3e8ed;margin:0}.toggle{display:flex;gap:10px;align-items:flex-start;font-size:12px;line-height:1.5;color:#536776}.toggle input{accent-color:#24658f;margin-top:3px}.hint{font-size:12px;line-height:1.65;color:#617382;margin:0}.step{font-size:13px;line-height:1.5;color:#36566b;min-height:40px;margin:0}.limitation{display:flex;gap:12px;align-items:flex-start;margin-top:18px;padding:14px 17px;background:#fff8ec;border:1px solid #eddfc4;border-radius:10px;color:#71572e;font-size:12px;line-height:1.6}.limitation strong{font-weight:650;white-space:nowrap}.error{position:absolute;inset:20%;background:#fff;padding:25px;border:1px solid #d49f90;border-radius:12px;color:#8d3227;line-height:1.6;z-index:2}.error[hidden]{display:none}.footer{font-size:11px;color:#71818e;margin:15px 2px 0}.mini-note{font-size:11px;color:#8b6239;line-height:1.5;margin:0}.mini-note[hidden]{display:none}
+@media(max-width:900px){.shell{padding:18px}.workspace{grid-template-columns:minmax(0,1fr)}.viewport{min-height:520px}.controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.controls h2,.controls .divider,.controls .actions,.controls .toggle,.controls .hint,.controls .step,.controls .mini-note{grid-column:1/-1}.controls h2{margin-bottom:-6px}.actions{grid-template-columns:repeat(3,minmax(0,1fr))}.controls .divider{display:none}.heading{align-items:flex-start}.revision{font-size:10px}.limitation{display:block}.limitation strong{display:block;margin-bottom:3px}}
+@media(max-width:560px){.shell{padding:12px}.heading{margin:7px 2px 16px;gap:10px}.revision{padding:7px 8px}.eyebrow{font-size:10px}.viewport{min-height:420px}.controls{padding:18px;gap:18px;grid-template-columns:1fr}.control{grid-column:1/-1}.actions{grid-template-columns:1fr}.axis{display:none}.view-title{font-size:11px;left:12px;top:12px}.view-meta{left:12px;bottom:12px;max-width:calc(100% - 24px)}.view-meta span{font-size:10px;padding:6px 8px}.range-labels{font-size:10px}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <header class="heading">
+    <div><p class="eyebrow">Model prototipe parametrik</p><h1>Pelipat pakaian aksesibel</h1></div>
+    <span class="revision">Pratinjau mekanisme</span>
+  </header>
+  <div class="workspace">
+    <section class="viewport" aria-label="Tampilan tiga dimensi mekanisme">
+      <canvas id="model-canvas" tabindex="0" aria-label="Model 3D. Seret untuk memutar, gulir untuk memperbesar. Tombol panah memutar kamera, plus atau minus mengatur jarak, Home mengembalikan kamera."></canvas>
+      <div class="view-title">Rakitan · satuan milimeter</div>
+      <div class="axis">Z ATAS · DEPAN DI SISI KONTROL</div>
+      <div class="view-meta"><span id="part-count">Memuat geometri…</span><span id="view-state">Semua panel terbuka</span></div>
+      <div id="view-error" class="error" role="alert" hidden></div>
+    </section>
+    <aside class="controls" aria-label="Pengaturan gerakan panel">
+      <h2>Uji sudut lipatan</h2>
+      <div class="control"><div class="control-line"><label for="angle-left">Sayap kiri</label><output class="angle" id="value-left" for="angle-left">0°</output></div><input id="angle-left" type="range" min="0" max="180" step="1" value="0"><div class="range-labels"><span>Terbuka</span><span>Terlipat</span></div></div>
+      <div class="control"><div class="control-line"><label for="angle-right">Sayap kanan</label><output class="angle" id="value-right" for="angle-right">0°</output></div><input id="angle-right" type="range" min="0" max="180" step="1" value="0"><div class="range-labels"><span>Terbuka</span><span>Terlipat</span></div></div>
+      <div class="control"><div class="control-line"><label for="angle-bottom">Flap bawah</label><output class="angle" id="value-bottom" for="angle-bottom">0°</output></div><input id="angle-bottom" type="range" min="0" max="180" step="1" value="0"><div class="range-labels"><span>Terbuka</span><span>Terlipat</span></div></div>
+      <hr class="divider">
+      <div class="actions"><button id="demo-button" class="button primary" type="button">Demo urutan lipat</button><button id="flat-button" class="button" type="button">Buka semua panel</button><button id="camera-button" class="button" type="button">Atur ulang kamera</button></div>
+      <p id="demo-step" class="step" aria-live="polite">Geser sudut panel atau jalankan demo.</p>
+      <p id="multi-panel-note" class="mini-note" hidden>Beberapa panel terangkat. Penyelesaian tabrakan antarpanel tidak dijalankan.</p>
+      <label class="toggle"><input type="checkbox" id="references-toggle" checked><span>Tampilkan komponen referensi dan elektronik</span></label>
+      <p class="hint">Seret untuk memutar pandangan. Gulir untuk memperbesar. Shift + seret untuk menggeser kamera. Sentuh dengan dua jari untuk mengatur jarak.</p>
+    </aside>
+  </div>
+  <div class="limitation"><strong>Batas pratinjau</strong><span>Gerakan mengikuti sumbu engsel yang ditetapkan. Tampilan ini tidak mensimulasikan kain, kelenturan cetakan, gesekan, atau tabrakan secara otomatis. Kecocokan fisik perlu dicoba pada cetakan uji.</span></div>
+  <p class="footer">Data geometri tertanam dalam berkas ini. Pratinjau dapat dibuka tanpa koneksi internet.</p>
+</main>
+<script>
+'use strict';
+const MODEL = __MODEL_DATA__;
+(function(){
+  const canvas=document.getElementById('model-canvas');
+  const error=document.getElementById('view-error');
+  const status=document.getElementById('view-state');
+  const counts=document.getElementById('part-count');
+  const stepLabel=document.getElementById('demo-step');
+  const demoButton=document.getElementById('demo-button');
+  const referenceToggle=document.getElementById('references-toggle');
+  const multiNote=document.getElementById('multi-panel-note');
+  const sliders={}, outputs={}, angles={left:0,right:0,bottom:0};
+  for(const g of Object.keys(angles)){sliders[g]=document.getElementById('angle-'+g);outputs[g]=document.getElementById('value-'+g);}
+  const identity=()=>new Float32Array([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]);
+  function mul(a,b){const o=new Float32Array(16);for(let col=0;col<4;col++)for(let row=0;row<4;row++){let n=0;for(let k=0;k<4;k++)n+=a[k*4+row]*b[col*4+k];o[col*4+row]=n;}return o;}
+  const sub=(a,b)=>[a[0]-b[0],a[1]-b[1],a[2]-b[2]];
+  const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+  const norm=a=>{const l=Math.hypot(...a)||1;return a.map(v=>v/l);};
+  const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+  function lookAt(eye,target){const z=norm(sub(eye,target)),x=norm(cross([0,0,1],z)),y=cross(z,x);return new Float32Array([x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-dot(x,eye),-dot(y,eye),-dot(z,eye),1]);}
+  function perspective(fovy,aspect,near,far){const f=1/Math.tan(fovy/2),nf=1/(near-far);return new Float32Array([f/aspect,0,0,0,0,f,0,0,0,0,(far+near)*nf,-1,0,0,2*far*near*nf,0]);}
+  function rotation(pivot,angle){
+    const p=pivot.point,axis=norm(pivot.axis),[x,y,z]=axis,a=angle*Math.PI/180*(pivot.sign===undefined?1:pivot.sign),c=Math.cos(a),s=Math.sin(a),t=1-c;
+    const r=[c+x*x*t,y*x*t+z*s,z*x*t-y*s,0,x*y*t-z*s,c+y*y*t,z*y*t+x*s,0,x*z*t+y*s,y*z*t-x*s,c+z*z*t,0,0,0,0,1];
+    r[12]=p[0]-(r[0]*p[0]+r[4]*p[1]+r[8]*p[2]);r[13]=p[1]-(r[1]*p[0]+r[5]*p[1]+r[9]*p[2]);r[14]=p[2]-(r[2]*p[0]+r[6]*p[1]+r[10]*p[2]);return new Float32Array(r);
+  }
+  function showError(message){error.textContent=message;error.hidden=false;}
+  if(!MODEL||!Array.isArray(MODEL.meshes)||!MODEL.meshes.length){showError('Tidak ada geometri model. Gunakan berkas pratinjau yang telah diisi data rakitan.');counts.textContent='Geometri belum tersedia';return;}
+  const gl=canvas.getContext('webgl2',{antialias:true,alpha:false,powerPreference:'high-performance'});
+  if(!gl){showError('WebGL 2 tidak tersedia. Buka berkas ini di peramban modern dengan akselerasi grafis aktif, atau buka model STEP/OBJ di aplikasi CAD.');return;}
+  const vertexSource=`#version 300 es
+  in vec3 aPosition; in vec3 aNormal; uniform mat4 uModel; uniform mat4 uViewProjection;
+  out vec3 vNormal; out vec3 vWorld;
+  void main(){vec4 world=uModel*vec4(aPosition,1.0);vWorld=world.xyz;vNormal=mat3(uModel)*aNormal;gl_Position=uViewProjection*world;}`;
+  const fragmentSource=`#version 300 es
+  precision highp float;
+  in vec3 vNormal; in vec3 vWorld; uniform vec3 uColor; uniform bool uLine; out vec4 outColor;
+  void main(){if(uLine){outColor=vec4(uColor,1.0);return;}vec3 n=normalize(vNormal);if(!gl_FrontFacing)n=-n;
+  float a=max(dot(n,normalize(vec3(-0.45,0.3,0.85))),0.0);float b=max(dot(n,normalize(vec3(0.5,-0.6,0.4))),0.0);
+  float light=0.47+0.39*a+0.14*b;outColor=vec4(uColor*light,1.0);}`;
+  function shader(type,source){const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s;}
+  let program;
+  try{program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,vertexSource));gl.attachShader(program,shader(gl.FRAGMENT_SHADER,fragmentSource));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));}
+  catch(e){showError('Peramban tidak dapat menyiapkan tampilan 3D: '+e.message);return;}
+  gl.useProgram(program);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.frontFace(gl.CW);
+  const loc={position:gl.getAttribLocation(program,'aPosition'),normal:gl.getAttribLocation(program,'aNormal'),model:gl.getUniformLocation(program,'uModel'),vp:gl.getUniformLocation(program,'uViewProjection'),color:gl.getUniformLocation(program,'uColor'),line:gl.getUniformLocation(program,'uLine')};
+  const bounds={min:[Infinity,Infinity,Infinity],max:[-Infinity,-Infinity,-Infinity]};
+  const drawables=[];let totalFaces=0;
+  function makeBuffer(data){const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(data),gl.STATIC_DRAW);return b;}
+  for(const mesh of MODEL.meshes){
+    const vertices=mesh.vertices,faces=mesh.faces;if(!vertices?.length||!faces?.length)continue;
+    const positions=new Float32Array(faces.length*9),normals=new Float32Array(faces.length*9);let cursor=0;
+    for(const v of vertices)for(let d=0;d<3;d++){bounds.min[d]=Math.min(bounds.min[d],v[d]);bounds.max[d]=Math.max(bounds.max[d],v[d]);}
+    for(const face of faces){const va=vertices[face[0]],vb=vertices[face[1]],vc=vertices[face[2]],n=norm(cross(sub(vb,va),sub(vc,va)));for(const v of [va,vb,vc])for(let d=0;d<3;d++){positions[cursor]=v[d];normals[cursor]=n[d];cursor++;}}
+    drawables.push({position:makeBuffer(positions),normal:makeBuffer(normals),count:faces.length*3,color:mesh.color||[0.15,0.4,0.65],group:mesh.group||'fixed',reference:Boolean(mesh.reference),name:mesh.name||'Bagian'});totalFaces+=faces.length;
+  }
+  counts.textContent=drawables.length+' komponen · '+new Intl.NumberFormat('id-ID',{notation:'compact',maximumFractionDigits:0}).format(totalFaces)+' segitiga';
+  const size=bounds.max.map((v,i)=>v-bounds.min[i]);
+  const defaultCenter=[(bounds.min[0]+bounds.max[0])/2,(bounds.min[1]+bounds.max[1])/2,Math.max(25,(bounds.min[2]+bounds.max[2])/2)];
+  const diagonal=Math.hypot(size[0],size[1],size[2]);
+  let center=defaultCenter.slice(),azimuth=-0.38,elevation=0.91,distance=Math.max(800,diagonal*1.28),framePending=false;
+  const initialDistance=distance;
+  const floorZ=Math.min(-1,bounds.min[2]-1.0),extent=Math.ceil(Math.max(size[0],size[1])/100)*100+200;
+  const grid=[];for(let i=-extent;i<=extent;i+=50){grid.push(defaultCenter[0]+i,defaultCenter[1]-extent,floorZ,defaultCenter[0]+i,defaultCenter[1]+extent,floorZ,defaultCenter[0]-extent,defaultCenter[1]+i,floorZ,defaultCenter[0]+extent,defaultCenter[1]+i,floorZ);}
+  const gridPosition=makeBuffer(grid),gridNormal=makeBuffer(new Float32Array(grid.length));
+  function bind(position,normal){gl.bindBuffer(gl.ARRAY_BUFFER,position);gl.enableVertexAttribArray(loc.position);gl.vertexAttribPointer(loc.position,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,normal);gl.enableVertexAttribArray(loc.normal);gl.vertexAttribPointer(loc.normal,3,gl.FLOAT,false,0,0);}
+  function requestDraw(){if(!framePending){framePending=true;requestAnimationFrame(render);}}
+  function render(){
+    framePending=false;const rect=canvas.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2),width=Math.max(1,Math.round(rect.width*ratio)),height=Math.max(1,Math.round(rect.height*ratio));if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
+    gl.viewport(0,0,width,height);gl.clearColor(0.931,0.947,0.961,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);
+    const eye=[center[0]+distance*Math.cos(elevation)*Math.sin(azimuth),center[1]+distance*Math.cos(elevation)*Math.cos(azimuth),center[2]+distance*Math.sin(elevation)],vp=mul(perspective(Math.PI/4,width/height,1,Math.max(8000,distance*5)),lookAt(eye,center));
+    // CAD plan uses X left-to-right and Y toward the user. Reflect display X
+    // so panel names match that plan while the separate control pod stays in front.
+    // CW front faces above compensate for this display-only handedness change.
+    for(const i of [0,4,8,12])vp[i]=-vp[i];
+    gl.uniformMatrix4fv(loc.vp,false,vp);gl.uniformMatrix4fv(loc.model,false,identity());gl.uniform1i(loc.line,1);gl.uniform3fv(loc.color,[0.81,0.845,0.87]);bind(gridPosition,gridNormal);gl.drawArrays(gl.LINES,0,grid.length/3);
+    const transforms={};for(const g of Object.keys(angles)){const p=MODEL.pivots?.[g];transforms[g]=p?rotation(p,angles[g]):identity();}
+    gl.uniform1i(loc.line,0);
+    for(const mesh of drawables){if(!referenceToggle.checked&&(mesh.group==='reference'||mesh.reference))continue;gl.uniformMatrix4fv(loc.model,false,transforms[mesh.group]||identity());gl.uniform3fv(loc.color,mesh.color);bind(mesh.position,mesh.normal);gl.drawArrays(gl.TRIANGLES,0,mesh.count);}
+  }
+  function updateLabels(){let raised=0;for(const g of Object.keys(angles)){const a=Math.round(angles[g]);sliders[g].value=String(a);outputs[g].value=a+'°';outputs[g].textContent=a+'°';if(a>2)raised++;}multiNote.hidden=raised<2;status.textContent=raised?('Kiri '+Math.round(angles.left)+'° · Kanan '+Math.round(angles.right)+'° · Bawah '+Math.round(angles.bottom)+'°'):'Semua panel terbuka';requestDraw();}
+  let demoToken=0,demoRunning=false;
+  function stopDemo(message){demoToken++;demoRunning=false;demoButton.textContent='Demo urutan lipat';demoButton.classList.remove('running');if(message)stepLabel.textContent=message;}
+  const smooth=t=>t*t*(3-2*t);
+  const sequence=[{group:'left',from:0,to:180,ms:1800,label:'1 · Lipat sayap kiri ke tengah.'},{group:'left',from:180,to:180,ms:450,label:'Kiri terlipat. Kembalikan ke posisi terbuka.'},{group:'left',from:180,to:0,ms:1800,label:'Buka kembali sayap kiri.'},{group:'left',from:0,to:0,ms:350,label:'Sayap kiri kembali terbuka.'},{group:'right',from:0,to:180,ms:1800,label:'2 · Lipat sayap kanan ke tengah.'},{group:'right',from:180,to:180,ms:450,label:'Kanan terlipat. Kembalikan ke posisi terbuka.'},{group:'right',from:180,to:0,ms:1800,label:'Buka kembali sayap kanan.'},{group:'right',from:0,to:0,ms:350,label:'Sayap kanan kembali terbuka.'},{group:'bottom',from:0,to:180,ms:1800,label:'3 · Lipat flap bawah ke atas.'},{group:'bottom',from:180,to:180,ms:450,label:'Flap bawah terlipat. Kembalikan ke posisi terbuka.'},{group:'bottom',from:180,to:0,ms:1800,label:'Buka kembali flap bawah.'}];
+  function startDemo(){stopDemo();demoRunning=true;demoButton.textContent='Hentikan demo';demoButton.classList.add('running');for(const g of Object.keys(angles))angles[g]=0;updateLabels();const token=demoToken;let index=0,start=performance.now();stepLabel.textContent=sequence[0].label;
+    function tick(now){if(token!==demoToken)return;const step=sequence[index],t=Math.min(1,(now-start)/step.ms);angles[step.group]=step.from+(step.to-step.from)*smooth(t);updateLabels();if(t>=1){index++;if(index>=sequence.length){stopDemo('Urutan selesai. Semua panel kembali terbuka.');return;}start=now;stepLabel.textContent=sequence[index].label;}requestAnimationFrame(tick);}requestAnimationFrame(tick);
+  }
+  for(const g of Object.keys(angles))sliders[g].addEventListener('input',()=>{stopDemo('Sudut diatur manual.');angles[g]=Number(sliders[g].value);updateLabels();});
+  demoButton.addEventListener('click',()=>demoRunning?stopDemo('Demo dihentikan. Sudut dapat diatur manual.'):startDemo());
+  document.getElementById('flat-button').addEventListener('click',()=>{stopDemo('Semua panel dibuka.');for(const g of Object.keys(angles))angles[g]=0;updateLabels();});
+  function resetCamera(){center=defaultCenter.slice();azimuth=-0.38;elevation=0.91;distance=initialDistance;requestDraw();}
+  document.getElementById('camera-button').addEventListener('click',resetCamera);referenceToggle.addEventListener('change',requestDraw);
+  const pointers=new Map();let drag=null,pinch=null;
+  canvas.addEventListener('contextmenu',e=>e.preventDefault());
+  canvas.addEventListener('pointerdown',e=>{canvas.focus({preventScroll:true});canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size===1)drag={x:e.clientX,y:e.clientY,pan:e.shiftKey||e.button===2};else if(pointers.size===2){const pts=[...pointers.values()];pinch={span:Math.hypot(pts[0][0]-pts[1][0],pts[0][1]-pts[1][1]),distance};drag=null;}});
+  canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size>=2&&pinch){const pts=[...pointers.values()],span=Math.max(10,Math.hypot(pts[0][0]-pts[1][0],pts[0][1]-pts[1][1]));distance=Math.min(4500,Math.max(200,pinch.distance*pinch.span/span));requestDraw();return;}if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;drag.x=e.clientX;drag.y=e.clientY;if(drag.pan||e.shiftKey){const scale=distance*.001,rx=[Math.cos(azimuth),-Math.sin(azimuth),0],up=[-Math.sin(elevation)*Math.sin(azimuth),-Math.sin(elevation)*Math.cos(azimuth),Math.cos(elevation)];for(let i=0;i<3;i++)center[i]+=(-dx*rx[i]+dy*up[i])*scale;}else{azimuth-=dx*.006;elevation=Math.max(.08,Math.min(1.52,elevation+dy*.005));}requestDraw();});
+  function release(e){pointers.delete(e.pointerId);pinch=null;if(pointers.size===1){const point=[...pointers.values()][0];drag={x:point[0],y:point[1],pan:false};}else drag=null;}
+  canvas.addEventListener('pointerup',release);canvas.addEventListener('pointercancel',release);canvas.addEventListener('lostpointercapture',release);
+  canvas.addEventListener('wheel',e=>{e.preventDefault();distance=Math.min(4500,Math.max(200,distance*Math.exp(e.deltaY*.001)));requestDraw();},{passive:false});
+  canvas.addEventListener('keydown',e=>{let handled=true;if(e.key==='ArrowLeft')azimuth+=.10;else if(e.key==='ArrowRight')azimuth-=.10;else if(e.key==='ArrowUp')elevation=Math.min(1.52,elevation+.08);else if(e.key==='ArrowDown')elevation=Math.max(.08,elevation-.08);else if(e.key==='+'||e.key==='=')distance=Math.max(200,distance*.9);else if(e.key==='-')distance=Math.min(4500,distance*1.1);else if(e.key==='Home')resetCamera();else handled=false;if(handled){e.preventDefault();requestDraw();}});
+  new ResizeObserver(requestDraw).observe(canvas.parentElement);window.addEventListener('resize',requestDraw);
+  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();stopDemo();showError('Konteks grafis terputus. Muat ulang berkas untuk melanjutkan pratinjau.');});
+  updateLabels();
+})();
+</script>
+</body>
+</html>

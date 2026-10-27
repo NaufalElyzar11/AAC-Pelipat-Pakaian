@@ -1,0 +1,436 @@
+[
+  {
+    "part": "panel_L1",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 106406.953,
+    "mass_solid_PLA_g": 131.94,
+    "watertight": true,
+    "note": "Panel left, row1; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_L2",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.6,
+      8.0
+    ],
+    "volume_mm3": 109126.115,
+    "mass_solid_PLA_g": 135.32,
+    "watertight": true,
+    "note": "Panel left, row2; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_L3",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.6,
+      8.0
+    ],
+    "volume_mm3": 107396.587,
+    "mass_solid_PLA_g": 133.17,
+    "watertight": true,
+    "note": "Panel left, row3; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_L4",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 107433.415,
+    "mass_solid_PLA_g": 133.22,
+    "watertight": true,
+    "note": "Panel left, row4; installed topz8; print clothface down"
+  },
+  {
+    "part": "splice_strap",
+    "category": "print",
+    "quantity": 16,
+    "bounds_mm": [
+      18.0,
+      56.0,
+      4.0
+    ],
+    "volume_mm3": 3841.352,
+    "mass_solid_PLA_g": 4.76,
+    "watertight": true,
+    "note": "16 copies; captive M3 nut pockets face underside"
+  },
+  {
+    "part": "panel_R1",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 106406.953,
+    "mass_solid_PLA_g": 131.94,
+    "watertight": true,
+    "note": "Panel right, row1; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_R2",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.6,
+      8.0
+    ],
+    "volume_mm3": 109126.115,
+    "mass_solid_PLA_g": 135.32,
+    "watertight": true,
+    "note": "Panel right, row2; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_R3",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.6,
+      8.0
+    ],
+    "volume_mm3": 107396.587,
+    "mass_solid_PLA_g": 133.17,
+    "watertight": true,
+    "note": "Panel right, row3; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_R4",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      206.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 107433.415,
+    "mass_solid_PLA_g": 133.22,
+    "watertight": true,
+    "note": "Panel right, row4; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_F1",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      202.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 125595.574,
+    "mass_solid_PLA_g": 155.74,
+    "watertight": true,
+    "note": "Panel fixed, row1; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_F2",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      202.0,
+      130.8,
+      8.0
+    ],
+    "volume_mm3": 121997.838,
+    "mass_solid_PLA_g": 151.28,
+    "watertight": true,
+    "note": "Panel fixed, row2; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_B1",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      202.0,
+      130.8,
+      8.0
+    ],
+    "volume_mm3": 102307.077,
+    "mass_solid_PLA_g": 126.86,
+    "watertight": true,
+    "note": "Panel bottom, row1; installed topz8; print clothface down"
+  },
+  {
+    "part": "panel_B2",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      202.0,
+      134.8,
+      8.0
+    ],
+    "volume_mm3": 105050.976,
+    "mass_solid_PLA_g": 130.26,
+    "watertight": true,
+    "note": "Panel bottom, row2; installed topz8; print clothface down"
+  },
+  {
+    "part": "hinge_A",
+    "category": "print",
+    "quantity": 6,
+    "bounds_mm": [
+      32.498,
+      11.498,
+      36.0
+    ],
+    "volume_mm3": 3717.951,
+    "mass_solid_PLA_g": 4.61,
+    "watertight": true,
+    "note": "6 copies; +Xleaf; supports and brim REQUIRED below knuckle ledges"
+  },
+  {
+    "part": "hinge_B",
+    "category": "print",
+    "quantity": 6,
+    "bounds_mm": [
+      32.498,
+      11.498,
+      36.0
+    ],
+    "volume_mm3": 3717.951,
+    "mass_solid_PLA_g": 4.61,
+    "watertight": true,
+    "note": "6 copies; -Xleaf; supports and brim REQUIRED; magnet drive not included"
+  },
+  {
+    "part": "marker_collar",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      46.0,
+      38.0,
+      6.0
+    ],
+    "volume_mm3": 4194.574,
+    "mass_solid_PLA_g": 5.2,
+    "watertight": true,
+    "note": "Mount with2M3; raised stop outside y0 boundary"
+  },
+  {
+    "part": "marker_index",
+    "category": "print",
+    "quantity": 3,
+    "bounds_mm": [
+      8.0,
+      22.0,
+      1.6
+    ],
+    "volume_mm3": 276.106,
+    "mass_solid_PLA_g": 0.34,
+    "watertight": true,
+    "note": "3 copies; adhesive; no raised wall around board"
+  },
+  {
+    "part": "control_base",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      250.0,
+      96.0,
+      30.0
+    ],
+    "volume_mm3": 130031.6,
+    "mass_solid_PLA_g": 161.24,
+    "watertight": true,
+    "note": "250x96x30; cablegrommet hole8.2; PCB tie-downs; no verified PCB standoffs"
+  },
+  {
+    "part": "control_lid",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      250.0,
+      96.0,
+      3.2
+    ],
+    "volume_mm3": 73412.756,
+    "mass_solid_PLA_g": 91.03,
+    "watertight": true,
+    "note": "3 holes16.3mm; volumehole7.3; speakergrille; componentmeasurements required"
+  },
+  {
+    "part": "braille_kembali",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      47.2,
+      12.3,
+      2.35
+    ],
+    "volume_mm3": 940.172,
+    "mass_solid_PLA_g": 1.17,
+    "watertight": true,
+    "note": "Uncontracted sixdot letters; reader validation required; dotheight0.75mm"
+  },
+  {
+    "part": "braille_mulai",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      34.8,
+      12.3,
+      2.35
+    ],
+    "volume_mm3": 693.489,
+    "mass_solid_PLA_g": 0.86,
+    "watertight": true,
+    "note": "Uncontracted sixdot letters; reader validation required; dotheight0.75mm"
+  },
+  {
+    "part": "braille_ulang",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      34.8,
+      12.3,
+      2.35
+    ],
+    "volume_mm3": 696.14,
+    "mass_solid_PLA_g": 0.86,
+    "watertight": true,
+    "note": "Uncontracted sixdot letters; reader validation required; dotheight0.75mm"
+  },
+  {
+    "part": "button_overlay_back",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      15.994,
+      15.997,
+      2.3
+    ],
+    "volume_mm3": 256.589,
+    "mass_solid_PLA_g": 0.32,
+    "watertight": true,
+    "note": "Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm"
+  },
+  {
+    "part": "button_overlay_next",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      15.994,
+      15.997,
+      2.3
+    ],
+    "volume_mm3": 373.614,
+    "mass_solid_PLA_g": 0.46,
+    "watertight": true,
+    "note": "Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm"
+  },
+  {
+    "part": "button_overlay_repeat",
+    "category": "print",
+    "quantity": 1,
+    "bounds_mm": [
+      15.994,
+      15.997,
+      2.3
+    ],
+    "volume_mm3": 312.353,
+    "mass_solid_PLA_g": 0.39,
+    "watertight": true,
+    "note": "Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm"
+  },
+  {
+    "part": "TEST_pin_bores_42_43_44_45",
+    "category": "test",
+    "quantity": 1,
+    "bounds_mm": [
+      92.0,
+      34.0,
+      8.0
+    ],
+    "volume_mm3": 24520.643,
+    "mass_solid_PLA_g": 30.41,
+    "watertight": true,
+    "note": "holes lefttoright4.2,4.3,4.4,4.5mm; test actual4mm rod"
+  },
+  {
+    "part": "TEST_splice_panel_A",
+    "category": "test",
+    "quantity": 1,
+    "bounds_mm": [
+      52.0,
+      38.0,
+      4.0
+    ],
+    "volume_mm3": 7846.288,
+    "mass_solid_PLA_g": 9.73,
+    "watertight": true,
+    "note": "Two smallplates for one actual splice strap; align seam and bolt centres"
+  },
+  {
+    "part": "TEST_splice_panel_B",
+    "category": "test",
+    "quantity": 1,
+    "bounds_mm": [
+      52.0,
+      38.0,
+      4.0
+    ],
+    "volume_mm3": 7846.288,
+    "mass_solid_PLA_g": 9.73,
+    "watertight": true,
+    "note": "Two smallplates for one actual splice strap; align seam and bolt centres"
+  },
+  {
+    "part": "TEST_hinge_panel_fixed",
+    "category": "test",
+    "quantity": 1,
+    "bounds_mm": [
+      55.0,
+      44.0,
+      4.0
+    ],
+    "volume_mm3": 9603.933,
+    "mass_solid_PLA_g": 11.91,
+    "watertight": true,
+    "note": "Useone normalhingepair andone4mm pin; completephysicalfoldclearance test"
+  },
+  {
+    "part": "TEST_hinge_panel_moving",
+    "category": "test",
+    "quantity": 1,
+    "bounds_mm": [
+      55.0,
+      44.0,
+      4.0
+    ],
+    "volume_mm3": 9603.933,
+    "mass_solid_PLA_g": 11.91,
+    "watertight": true,
+    "note": "Useone normalhingepair andone4mm pin; completephysicalfoldclearance test"
+  },
+  {
+    "part": "OPTION_sensor_adapter_template",
+    "category": "optional",
+    "quantity": 1,
+    "bounds_mm": [
+      30.0,
+      30.0,
+      3.0
+    ],
+    "volume_mm3": 2258.596,
+    "mass_solid_PLA_g": 2.8,
+    "watertight": true,
+    "note": "UnverifiedgenericPCB template; NOT a finalized AS5600 mount or magnet drive"
+  }
+]

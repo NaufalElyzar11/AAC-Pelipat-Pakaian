@@ -1,0 +1,32 @@
+﻿part,category,quantity,bounds_mm,volume_mm3,mass_solid_PLA_g,watertight,note
+panel_L1,print,1,"[206.0, 134.8, 8.0]",106406.953,131.94,True,"Panel left, row1; installed topz8; print clothface down"
+panel_L2,print,1,"[206.0, 134.6, 8.0]",109126.115,135.32,True,"Panel left, row2; installed topz8; print clothface down"
+panel_L3,print,1,"[206.0, 134.6, 8.0]",107396.587,133.17,True,"Panel left, row3; installed topz8; print clothface down"
+panel_L4,print,1,"[206.0, 134.8, 8.0]",107433.415,133.22,True,"Panel left, row4; installed topz8; print clothface down"
+splice_strap,print,16,"[18.0, 56.0, 4.0]",3841.352,4.76,True,16 copies; captive M3 nut pockets face underside
+panel_R1,print,1,"[206.0, 134.8, 8.0]",106406.953,131.94,True,"Panel right, row1; installed topz8; print clothface down"
+panel_R2,print,1,"[206.0, 134.6, 8.0]",109126.115,135.32,True,"Panel right, row2; installed topz8; print clothface down"
+panel_R3,print,1,"[206.0, 134.6, 8.0]",107396.587,133.17,True,"Panel right, row3; installed topz8; print clothface down"
+panel_R4,print,1,"[206.0, 134.8, 8.0]",107433.415,133.22,True,"Panel right, row4; installed topz8; print clothface down"
+panel_F1,print,1,"[202.0, 134.8, 8.0]",125595.574,155.74,True,"Panel fixed, row1; installed topz8; print clothface down"
+panel_F2,print,1,"[202.0, 130.8, 8.0]",121997.838,151.28,True,"Panel fixed, row2; installed topz8; print clothface down"
+panel_B1,print,1,"[202.0, 130.8, 8.0]",102307.077,126.86,True,"Panel bottom, row1; installed topz8; print clothface down"
+panel_B2,print,1,"[202.0, 134.8, 8.0]",105050.976,130.26,True,"Panel bottom, row2; installed topz8; print clothface down"
+hinge_A,print,6,"[32.498, 11.498, 36.0]",3717.951,4.61,True,6 copies; +Xleaf; supports and brim REQUIRED below knuckle ledges
+hinge_B,print,6,"[32.498, 11.498, 36.0]",3717.951,4.61,True,6 copies; -Xleaf; supports and brim REQUIRED; magnet drive not included
+marker_collar,print,1,"[46.0, 38.0, 6.0]",4194.574,5.2,True,Mount with2M3; raised stop outside y0 boundary
+marker_index,print,3,"[8.0, 22.0, 1.6]",276.106,0.34,True,3 copies; adhesive; no raised wall around board
+control_base,print,1,"[250.0, 96.0, 30.0]",130031.6,161.24,True,250x96x30; cablegrommet hole8.2; PCB tie-downs; no verified PCB standoffs
+control_lid,print,1,"[250.0, 96.0, 3.2]",73412.756,91.03,True,3 holes16.3mm; volumehole7.3; speakergrille; componentmeasurements required
+braille_kembali,print,1,"[47.2, 12.3, 2.35]",940.172,1.17,True,Uncontracted sixdot letters; reader validation required; dotheight0.75mm
+braille_mulai,print,1,"[34.8, 12.3, 2.35]",693.489,0.86,True,Uncontracted sixdot letters; reader validation required; dotheight0.75mm
+braille_ulang,print,1,"[34.8, 12.3, 2.35]",696.14,0.86,True,Uncontracted sixdot letters; reader validation required; dotheight0.75mm
+button_overlay_back,print,1,"[15.994, 15.997, 2.3]",256.589,0.32,True,Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm
+button_overlay_next,print,1,"[15.994, 15.997, 2.3]",373.614,0.46,True,Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm
+button_overlay_repeat,print,1,"[15.994, 15.997, 2.3]",312.353,0.39,True,Adhesive16mm tactile overlay; actual switch cap must provide flat diameter>=16mm
+TEST_pin_bores_42_43_44_45,test,1,"[92.0, 34.0, 8.0]",24520.643,30.41,True,"holes lefttoright4.2,4.3,4.4,4.5mm; test actual4mm rod"
+TEST_splice_panel_A,test,1,"[52.0, 38.0, 4.0]",7846.288,9.73,True,Two smallplates for one actual splice strap; align seam and bolt centres
+TEST_splice_panel_B,test,1,"[52.0, 38.0, 4.0]",7846.288,9.73,True,Two smallplates for one actual splice strap; align seam and bolt centres
+TEST_hinge_panel_fixed,test,1,"[55.0, 44.0, 4.0]",9603.933,11.91,True,Useone normalhingepair andone4mm pin; completephysicalfoldclearance test
+TEST_hinge_panel_moving,test,1,"[55.0, 44.0, 4.0]",9603.933,11.91,True,Useone normalhingepair andone4mm pin; completephysicalfoldclearance test
+OPTION_sensor_adapter_template,optional,1,"[30.0, 30.0, 3.0]",2258.596,2.8,True,UnverifiedgenericPCB template; NOT a finalized AS5600 mount or magnet drive

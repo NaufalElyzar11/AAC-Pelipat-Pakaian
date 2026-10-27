@@ -1,0 +1,197 @@
+[
+  {
+    "panel": "left",
+    "angle_deg": 0,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 15,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 30,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 45,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 60,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 75,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 90,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 105,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 120,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 135,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 150,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 165,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "left",
+    "angle_deg": 180,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 0,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 15,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 30,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 45,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 60,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 75,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 90,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 105,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 120,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 135,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 150,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 165,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "right",
+    "angle_deg": 180,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 0,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 15,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 30,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 45,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 60,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 75,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 90,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 105,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 120,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 135,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 150,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 165,
+    "intersection_mm3": 0
+  },
+  {
+    "panel": "bottom",
+    "angle_deg": 180,
+    "intersection_mm3": 0
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "revision": "B",
+  "units": "mm",
+  "open_board_nominal_mm": [
+    630,
+    540
+  ],
+  "top_surface_z_mm": 8.0,
+  "pivot_z_mm": 15.0,
+  "unique_printable_and_test_parts": 31,
+  "installed_printable_count": 52,
+  "solid_PLA_mass_all_installed_g": 2025.5,
+  "max_sampled_collision_mm3": 0,
+  "collision_angle_samples": 39,
+  "printable_meshes_watertight": true,
+  "sensor_mount_status": "Genericadapteronly; finalPCBmount and keyedmagnetcarrier notincluded",
+  "electronics_housing_status": "Generic16mmbutton holes and tiedownslots; actualcomponents notmeasured"
+}
