@@ -1,0 +1,212 @@
+{
+  "board_target_mm": [
+    630.0,
+    540.0,
+    8.0
+  ],
+  "board_scale": [
+    2.04545,
+    1.84932,
+    1.6
+  ],
+  "control_pod_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "pivots": {
+    "left": {
+      "point": [
+        208.6364,
+        0.0,
+        8.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "sign": 1
+    },
+    "right": {
+      "point": [
+        421.3636,
+        0.0,
+        8.0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "sign": -1
+    },
+    "bottom": {
+      "point": [
+        0.0,
+        270.0,
+        8.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "sign": 1
+    }
+  },
+  "files": [
+    {
+      "file": "pelipat_terbaru_utuh_630x540.stl",
+      "extents_mm": [
+        630.0,
+        540.0,
+        8.0
+      ],
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        630.0,
+        540.0,
+        8.0
+      ],
+      "triangles": 93480
+    },
+    {
+      "file": "pelipat_terbaru_sayap_kiri.stl",
+      "extents_mm": [
+        208.64,
+        540.0,
+        8.0
+      ],
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        208.64,
+        540.0,
+        8.0
+      ],
+      "triangles": 45118
+    },
+    {
+      "file": "pelipat_terbaru_sayap_kanan.stl",
+      "extents_mm": [
+        208.64,
+        540.0,
+        8.0
+      ],
+      "bounds_min_mm": [
+        421.36,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        630.0,
+        540.0,
+        8.0
+      ],
+      "triangles": 48150
+    },
+    {
+      "file": "pelipat_terbaru_tengah_tetap.stl",
+      "extents_mm": [
+        212.73,
+        270.0,
+        8.0
+      ],
+      "bounds_min_mm": [
+        208.64,
+        270.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        421.36,
+        540.0,
+        8.0
+      ],
+      "triangles": 144
+    },
+    {
+      "file": "pelipat_terbaru_flap_bawah.stl",
+      "extents_mm": [
+        204.55,
+        270.0,
+        8.0
+      ],
+      "bounds_min_mm": [
+        212.73,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        417.27,
+        270.0,
+        8.0
+      ],
+      "triangles": 176
+    },
+    {
+      "file": "pod_kontrol_terbaru_base.stl",
+      "extents_mm": [
+        120.0,
+        75.69,
+        55.0
+      ],
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        120.0,
+        75.69,
+        55.0
+      ],
+      "triangles": 8780
+    },
+    {
+      "file": "pod_kontrol_terbaru_lid.stl",
+      "extents_mm": [
+        114.0,
+        69.0,
+        5.5
+      ],
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        114.0,
+        69.0,
+        5.5
+      ],
+      "triangles": 1608
+    },
+    {
+      "file": "lipat_baju_terbaru_lengkap.stl",
+      "extents_mm": [
+        630.0,
+        655.69,
+        57.5
+      ],
+      "bounds_min_mm": [
+        0.0,
+        -115.69,
+        -0.0
+      ],
+      "bounds_max_mm": [
+        630.0,
+        540.0,
+        57.5
+      ],
+      "triangles": 103868
+    }
+  ]
+}
